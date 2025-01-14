@@ -8,6 +8,7 @@ import java.util.Collection;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+// Test Cases for Linked List
 public class SinglyLinkedListTest {
 
     SinglyLinkedList linkedList = new SinglyLinkedList();
