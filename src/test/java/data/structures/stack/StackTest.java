@@ -8,10 +8,9 @@ import java.util.Collection;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-
 public class StackTest {
 
-    Stack stack = new Stack();
+    MyStack stack = new MyStack();
 
     @TestFactory
     Collection<DynamicTest> StackTestCases() {

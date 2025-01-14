@@ -3,7 +3,7 @@ package data.structures.stack;
 import java.util.EmptyStackException;
 
 
-public class Stack {
+public class MyStack {
 
     private ListNode top;
     private int length;
@@ -18,7 +18,7 @@ public class Stack {
         }
     }
 
-    public Stack() {
+    public MyStack() {
         top = null;
         length = 0;
     }
@@ -56,7 +56,7 @@ public class Stack {
     }
 
     public static void main(String[] args) {
-        Stack stack = new Stack();
+        MyStack stack = new MyStack();
         stack.push(10);
         stack.push(15);
         stack.push(20);
